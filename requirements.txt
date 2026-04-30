@@ -1,0 +1,10 @@
+streamlit
+pandas
+numpy
+scikit-learn
+joblib
+python-dotenv
+google-genai
+SpeechRecognition
+pyaudio
+langdetect
