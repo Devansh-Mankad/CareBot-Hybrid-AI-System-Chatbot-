@@ -1,3 +1,5 @@
 .env
 data/
-*.pkl
+features.pkl
+label_encoder.pkl
+model.pkl
