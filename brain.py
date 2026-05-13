@@ -212,7 +212,7 @@ def get_carebot_response(user_query, chat_history):
     predictions = predict_disease(symptoms)
 
     try:
-        predictions = [p for p in predictions if p.get("confidence", 0) >= 25]
+        predictions = [p for p in predictions if p.get("confidence", 0) >= 0]
         predictions = predictions[:2]
     except:
         predictions = []
@@ -251,7 +251,7 @@ IMPORTANT LANGUAGE RULE:
             f"{p['disease']} ({p['confidence']}%)"
             for p in predictions
         ])
-
+        print(prediction_text)
         enhanced_query = f"""
 User symptoms: {user_query}
 

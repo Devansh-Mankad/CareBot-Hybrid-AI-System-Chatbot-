@@ -56,15 +56,6 @@ with st.sidebar:
         st.session_state.predictions = []
         st.rerun()
 
-    st.divider()
-    st.subheader("📋 Prediction Summary")
-
-    if "predictions" in st.session_state and st.session_state.predictions:
-        for p in st.session_state.predictions:
-            st.progress(p["confidence"]/100)
-            st.write(f"{p['disease']} - {p['confidence']}%")
-    else:
-        st.write("No predictions yet.")
 
 # HEADER
 st.title("CareBot: Rural Healthcare Assistant")
