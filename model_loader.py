@@ -16,7 +16,7 @@ def load_model():
 def load_encoder():
     path = hf_hub_download(
     repo_id=REPO_ID,
-    filename="encoder.pkl"
+    filename="label_encoder.pkl"
     )
     return joblib.load(path)
 
