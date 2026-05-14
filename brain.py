@@ -230,6 +230,7 @@ def get_carebot_response(user_query, chat_history):
 
     if first_time:
         enhanced_query = f"""
+{SYSTEM_RULES}
 User message: {user_query}
 
 Ask 3 to 4 follow-up questions about:
@@ -253,6 +254,7 @@ IMPORTANT LANGUAGE RULE:
         ])
         print(prediction_text)
         enhanced_query = f"""
+{SYSTEM_RULES}
 User symptoms: {user_query}
 
 ML Predictions:

@@ -7,3 +7,4 @@ python-dotenv
 google-genai
 SpeechRecognition
 langdetect
+huggingface_hub

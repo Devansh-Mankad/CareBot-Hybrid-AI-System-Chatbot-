@@ -1,9 +1,9 @@
 import re
 import joblib
 from langdetect import detect
+from model_loader import load_features
 
-# Load feature names EXACTLY as in dataset
-FEATURES = joblib.load("features.pkl")
+FEATURES = load_features()
 
 # Language detection
 def detect_language(text):

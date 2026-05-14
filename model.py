@@ -1,9 +1,9 @@
 import joblib
-
+from model_loader import load_model , load_encoder , load_features
 # LOAD PRE-TRAINED FILES
-model = joblib.load("model.pkl")
-le = joblib.load("label_encoder.pkl")
-FEATURES = joblib.load("features.pkl")
+model = load_model()
+le = load_encoder
+FEATURES = load_features()
 
 def predict_disease(symptoms_dict):
     # Convert input to model format
