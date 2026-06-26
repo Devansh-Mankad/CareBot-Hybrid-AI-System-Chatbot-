@@ -1,8 +1,10 @@
 import streamlit as st
+
+st.set_page_config(page_title="CareBot AI", page_icon="🩺", layout="wide")
+
 import time
 from brain import get_carebot_response, listen_to_user
 
-st.set_page_config(page_title="CareBot AI", page_icon="🩺", layout="wide")
 st.markdown("""
 <style>
 .main { background-color: #f8f9fa; }
