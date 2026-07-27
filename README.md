@@ -237,18 +237,17 @@ CareBot incorporates multiple safety mechanisms to promote responsible AI usage.
 
 ---
 
-# 👨‍💻 Developed By
+# 👨‍💻 Author
 
 **Devansh Mankad**
 
-GitHub: https://github.com/Devansh-Mankad
+Computer Engineering Student
 
+* GitHub: https://github.com/Devansh-Mankad
 ---
 
-## 📄 License
+# ⭐ Support
 
-This project is intended for educational and research purposes.
+If you found this project useful, consider giving it a **⭐ Star** on GitHub.
 
 ---
-
-⭐ **If you found this project useful, consider giving it a Star on GitHub!**
